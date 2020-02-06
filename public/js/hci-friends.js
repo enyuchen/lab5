@@ -5,6 +5,7 @@ $(document).ready(function() {
 	initializePage();
 })
 
+document.getElementById("myBtn").addEventListener("click", displayDate);
 /*
  * Function that is called when the document is ready.
  */
